@@ -30,8 +30,8 @@
   .description {
     width: 100%;
     margin: 0 auto;
-    padding: 10px 0px;
-    background-color: rgba(97, 91, 91, 0.55);
+    padding: 20px 0px;
+    background-color: rgba(97, 91, 91, 0.45);
     background-size: cover;
     color: whitesmoke;
   }
@@ -44,7 +44,7 @@
   }
   
   .top-wrapper {
-    padding: 170px 0 145px 0;
+    padding: 180px 0 135px 0;
     background-image: url(./top_wrapper.png);
     background-size: cover;
     text-align: center;
