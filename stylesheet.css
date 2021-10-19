@@ -87,3 +87,36 @@
     padding: 21px 0;
     display: none;
   }
+
+/*reservasi*/
+.contact-form{
+    padding:30px 0 0 50px;
+}
+.contact-form h3{
+    font-size:28px;
+    padding: 30px 0 px 0 ;
+    color:#4c5547;
+}
+.contact-form p{
+    font-size:18px;
+    color:#4c5547;
+    padding-top:15px;
+}
+input{
+    width:300px;
+}
+.contact-submit{
+    font-size:18px;
+    color:#4c5547;
+    background-color:rgba(199,199,187,0.7);
+    width:300px;
+    padding:20px 10px;
+    height:30px;
+    margin-top:20px;
+    margin-bottom:100px;
+    text-align:center;
+}
+.contact-submit:hover{
+    background-color:rgba(199,199,187,1);
+    cursor: pointer;
+}
