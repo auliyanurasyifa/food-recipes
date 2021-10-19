@@ -101,6 +101,86 @@
     display: none;
   }
 
+/*body*/
+.title-week{
+    padding-top:30px;
+    text-align:center;
+    font-size:15px;
+    color:#4c5547;
+    padding-bottom:15px;
+}
+.resep1{
+    padding:25px 300px;
+}
+.resep2{
+    padding:25px 300px;
+}
+.resep3{
+    padding:25px 300px;
+    margin-bottom: 100px;
+}
+.resep-right{
+    padding:15px;
+    width:50%;
+    text-align: justify;
+    color:#4c5547;
+    clear:right;
+    height: 254px;
+}
+.resep-right h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding-bottom:7px;
+}
+.resep-left{
+    padding:15px;
+    position:relative;
+}
+.resep-left p{
+    position:absolute;
+    top:250px;
+    left:25px;
+    opacity: 0.8;
+    font-size:10px;
+    font-weight: 200;
+}
+.source{
+    color:brown;
+    clear: both;
+}
+.source:hover{
+    cursor: pointer;
+}
+.btn {
+    margin-top: 30px;
+    padding: 10px 25px;
+    color: #4c5547;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 3px;
+    background-color:rgba(199,199,187,0.7) ;
+    float: right;
+}
+.btn:hover{
+    opacity: 1;
+}
+
+.clear{
+    clear:both;
+}
+
+/*gallery*/
+.photo{
+    flex:20%;
+    padding:3px;
+}
+.gallery{
+    content:"";
+    clear:both;
+    display:flex;
+    padding:0 30px;
+}
+
   /*reservasi*/
 .contact-form{
   padding:30px 0 0 50px;
