@@ -1,6 +1,4 @@
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
+* {
   margin: 0;
   padding: 0;
 }
@@ -17,12 +15,19 @@ h1, h2, h3, h4, h5, h6, p, div {
   .clear {
     clear: left;
   }
-  
+
+  .fa {
+    margin-right: 5px;
+  }
+
   .container {
     max-width: 1170px;
     width: 100%;
     padding: 0 10px;
     margin: 0 auto;
+    background-color: rgb(97, 91, 91);
+    background-size: cover;
+    opacity: 0.5;
   }
 
   .container p {
@@ -84,7 +89,7 @@ h1, h2, h3, h4, h5, h6, p, div {
   }
 
   .menu-icon {
-    color: white;
+    color: black;
     float: right;
     font-size: 25px;
     padding: 21px 0;
