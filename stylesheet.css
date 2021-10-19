@@ -28,11 +28,10 @@
   }
 
   .description {
-    max-width: 1170px;
     width: 100%;
-    padding: 0 10px;
     margin: 0 auto;
-    background-color: rgb(97, 91, 91,0.8);
+    padding: 10px 0px;
+    background-color: rgba(97, 91, 91, 0.55);
     background-size: cover;
     color: whitesmoke;
   }
@@ -45,7 +44,7 @@
   }
   
   .top-wrapper {
-    padding: 150px 0 180px 0;
+    padding: 170px 0 145px 0;
     background-image: url(./top_wrapper.png);
     background-size: cover;
     text-align: center;
