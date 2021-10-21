@@ -2,148 +2,132 @@
   margin: 0;
   padding: 0;
 }
-  
   body {
     margin: 0;
     font-family: "Lucida Grande";
   }
+    
+    a {
+      text-decoration: none;
+    }
+    
+    .clear {
+      clear: left;
+    }
   
-  a {
-    text-decoration: none;
-  }
+    .fa {
+      margin-right: 5px;
+      margin-bottom: 20px;
+    }
   
-  .clear {
-    clear: left;
-  }
-
-  .fa {
-    margin-right: 5px;
-    margin-bottom: 20px;
-  }
-
-  .container {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 10px;
-    margin: 0 auto;
-  }
-
-  .description {
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px 0px;
-    background-color: rgba(97, 91, 91, 0.55);
-    background-size: cover;
-    color: whitesmoke;
-  }
-
-  .description p {
-    max-width: 770px;
-    width: 100%;
-    padding: 8px 0px;
-    margin: 0 auto;
-  }
+    .container {
+      max-width: 1170px;
+      width: 100%;
+      padding: 0 10px;
+      margin: 0 auto;
+    }
   
-  .top-wrapper {
-    padding: 170px 0 145px 0;
-    background-image: url(./top_wrapper.png);
-    background-size: cover;
-    text-align: center;
-  }
+    .description {
+      width: 100%;
+      margin: 0 auto;
+      padding: 10px 0px;
+      color: whitesmoke;
+    }
   
-  .top-wrapper h1 {
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-  }
+    .description p {
+      max-width: 770px;
+      width: 100%;
+      padding: 8px 0px;
+      margin: 0 auto;
+    }
+    
+    .top-wrapper {
+      padding: 160px 0 130px 0;
+      background-image: url(./top_wrapper2.png);
+      background-size: cover;
+      text-align: center;
+    }
+    .top-wrapper h3 {
+      font-size: 35px;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+    }
+    .top-wrapper h1 {
+      font-size: 45px;
+      letter-spacing: 5px;
+      margin-bottom: 10px;
+    }
+    
+    .top-wrapper p {
+      font-size: 18px;
+      margin-bottom: 2px;
+    }
+    
+    header {
+      height: 46px;
+      width: 100%;
+      background-color: rgba(243, 243, 243, 0.966);
+      position: fixed;
+      top: 0;
+      z-index: 10;
+    }
+    
+    .header-left {
+      float: left;
+    }
+    
+    .header-right {
+      float: right;
+      margin-right: -unset;
+    }
+    
+    .header-right a {
+      line-height: 46px;
+      padding: 0 25px;
+      color: black;
+      display: block;
+      float: left;
+      transition: all 0.5s;
+    }
+    
+    .header-right a:hover {
+      background-color: rgba(78, 87, 41, 0.3);
+    }
   
-  .top-wrapper p {
-    font-size: 18px;
-    margin-bottom: 2px;
-  }
+    .menu-icon {
+      color: black;
+      float: right;
+      font-size: 25px;
+      padding: 21px 0;
+      display: none;
+    }
+    
   
-  header {
-    height: 46px;
-    width: 100%;
-    background-color: rgba(243, 243, 243, 0.966);
-    position :fixed;
-    top: 0;
-    z-index: 10;
-  }
-  
-  .header-left {
-    float: left;
-  }
-  
-  .header-right {
-    float: right;
-    margin-right: -25px;
-  }
-  
-  .header-right a {
-    line-height: 46px;
-    padding: 0 25px;
-    color: black;
-    display: block;
-    float: left;
-    transition: all 0.5s;
-  }
-  
-  .header-right a:hover {
-    background-color: rgba(78, 87, 41, 0.3);
-  }
-
-  .menu-icon {
-    color: black;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    display: none;
-  }
-
 /*Resep*/
     .title-week{
         padding-top:30px;
         text-align:center;
         font-size:15px;
         color:#4c5547;
-        padding-bottom:15px;
+        padding-bottom:10px;
     }
-    .resep1{
-        padding:25px 300px;
+    .resep{
+      display: flex;
+      margin: 30px;
     }
-    .resep2{
-        padding:25px 300px;
+    .resep li{
+      flex: auto;
+      padding:5px 10px;
+      width:50%;
+      color:#4c5547;
+      list-style: none;
     }
-    .resep3{
-        padding:25px 300px;
-        margin-bottom: 100px;
+    .gambar img{
+      float: right
     }
-    
-    .resep-right{
-        padding:15px;
-        width:50%;
-        text-align: justify;
-        color:#4c5547;
-        clear:right;
-        height: 254px;
-    }
-    .resep-right h2{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 30px;
-        padding-bottom:7px;
-    }
-    .resep-left{
-        padding:15px;
-        position:relative;
-    }
-    .resep-left p{
-        position:absolute;
-        top:250px;
-        left:25px;
-        opacity: 0.8;
-        font-size:10px;
-        font-weight: 200;
+    .deskripsi p{
+      width: 377px;
+      text-align: justify;
     }
     .source{
         color:brown;
@@ -154,7 +138,7 @@
     }
     .btn {
         margin-top: 30px;
-        padding: 10px 25px;
+        padding: 8px 20px;
         color: #4c5547;
         display: inline-block;
         opacity: 0.8;
@@ -170,7 +154,7 @@
         clear:both;
     }  
   
-    /*gallery*/
+/*gallery*/
 .photo{
     flex:20%;
     padding:3px;
@@ -182,13 +166,14 @@
     padding:30px 30px 0 30px;
 }
 
-  /*reservasi*/
+/*reservasi*/
 .contact-form{
-  padding:30px 0 0 50px;
+  padding-top: 30px;
+  text-align: center;
 }
 .contact-form h3{
   font-size:28px;
-  padding: 30px 0 px 0 ;
+  padding-top: 30px;
   color:#4c5547;
 }
 .contact-form p{
@@ -196,38 +181,54 @@
   color:#4c5547;
   padding-top:15px;
 }
-input{
-  width:300px;
+input, textarea {
+  width: 300px;
+  margin-top: 10px;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #dee7ec;
 }
 .contact-submit{
-  font-size:18px;
+  width: 100px;
   color:#4c5547;
   background-color:rgba(199,199,187,0.7);
-  width:300px;
-  padding:20px 10px;
-  height:30px;
+  padding:10px 15px;
   margin-top:20px;
-  margin-bottom:100px;
+  margin-bottom:80px;
   text-align:center;
 }
 .contact-submit:hover{
   background-color:rgba(199,199,187,1);
   cursor: pointer;
 }
-
-/*footer*/
-  footer img {
-    width: 120px;
-    display: block; 
-    margin: auto;
-    padding-bottom: 20px;
-  }
   
-  footer {
-    height: 70px;
-    width: 100%;
-    bottom: 0;
-    padding-top: 20px;
-    background-color: rgb(0, 0, 0);
-    z-index: 10;
-  }
+  /*footer*/
+    footer img {
+      width: 150px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    footer {
+      height: auto;
+      width: 100%;
+      bottom: 0;
+      background-color: rgba(87, 84, 41, 0.719);
+      z-index: 10;
+      text-align: center;
+    }
+    footer ul{
+        color: whitesmoke;
+        padding-bottom: 15px;
+    }
+    footer li{
+        display:block;
+        font-size:15px;
+    }
+    .fa{
+        margin:5px 0px;
+        font-size:15px;
+        color: whitesmoke;
+    }   
