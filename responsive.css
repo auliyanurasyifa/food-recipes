@@ -3,17 +3,19 @@
   header {
     position: fixed;
   }
-  .top-wrapper h1 {
+  .description h1 {
     text-align: left;
     font-size: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10%;
+    width: 75%;
   }
-  .top-wrapper h3 {
+  .description h3 {
+    text-align: left;
     font-size: 25px;
+    padding-left: 10%;
   }
   .description p {
-    max-width: 400px;
+    width: 60%;
     text-align: justify;
   }
   .header-right {
@@ -32,14 +34,13 @@
     display: block;
   }
   .gambar img{
-    width: auto;
+    padding-bottom: 12px;
+  }
+  .resep li{
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-  }
-  .resep li{
-    padding:0 auto;
-    width: auto;
   }
   .deskripsi h2 {
     text-align: center;
@@ -47,6 +48,10 @@
   }
   .deskripsi p{
     text-align: justify;
+  }
+  .btn {
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
   .contact-form {
     padding-top: 20px;
@@ -93,23 +98,20 @@
     margin-right: 25px;
   }
   .top-wrapper h1 {
-    font-size: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
+    font-size: 38px;
   }
   .top-wrapper h3 {
     font-size: 30px;
   }
-  .top-wrapper p {
-    padding-left: 15px;
-    padding-right: 15px;
+  .description p {
+    width: 80%;
   }
   .gambar img{
     float: right;
     width: 277px;
   }
   .deskripsi p{
-    width: 300px;
+    width: 277px;
   }
   .contact-form{
     padding-left: 0px;
