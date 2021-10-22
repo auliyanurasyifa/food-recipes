@@ -78,7 +78,7 @@
     
     .header-right {
       float: right;
-      margin-right: -unset;
+      margin-right: -25px;
     }
     
     .header-right a {
@@ -93,11 +93,12 @@
     .header-right a:hover {
       background-color: rgba(78, 87, 41, 0.3);
     }
-  
+
     .menu-icon {
-      float: right;
-      font-size: 25px;
-      padding: 21px 0;
+      display: none;
+    }
+
+    .menu-icon.fa {
       display: none;
     }
     
@@ -143,7 +144,7 @@
         opacity: 0.8;
         border-radius: 3px;
         background-color:rgba(199,199,187,0.7) ;
-        float: right;
+        float: left;
     }
     .btn:hover{
         opacity: 1;
