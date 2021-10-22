@@ -1,13 +1,13 @@
 /*layout smartphone*/
-@media (max-width:670px){
+@media only screen and (max-width:670px){
   header {
     position: fixed;
   }
   .description h1 {
     text-align: left;
-    font-size: 30px;
+    font-size: 25px;
     padding-left: 10%;
-    width: 75%;
+    width: 70%;
   }
   .description h3 {
     text-align: left;
@@ -23,7 +23,16 @@
   }
   .menu-icon {
     display: block;
-    padding: 0 50px 0 0;
+    float: right;
+    font-size: 25px;
+    padding-right: 35px;
+  }
+
+  .menu-icon.fa {
+    display: block;
+    float: right;
+    font-size: 25px;
+    padding-right: 35px;
   }
   .title-week{
     padding-top:30px;
@@ -52,6 +61,7 @@
   .btn {
     margin-top: 10px;
     margin-bottom: 15px;
+    float: right;
   }
   .contact-form {
     padding-top: 20px;
@@ -87,7 +97,7 @@
   }
 }
 /*layout tablet*/
-@media(max-width:1000px){
+@media only screen and (max-width:1000px){
   header {
     position: fixed;
   }
@@ -96,6 +106,9 @@
   }
   .header-right {
     margin-right: 25px;
+  }
+  .header-right a {
+    padding: 0 18px;
   }
   .top-wrapper h1 {
     font-size: 38px;
