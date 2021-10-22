@@ -17,7 +17,7 @@
   
     .fa {
       margin-right: 5px;
-      margin-bottom: 20px;
+      margin-top: 15px;
     }
   
     .container {
@@ -95,7 +95,6 @@
     }
   
     .menu-icon {
-      color: black;
       float: right;
       font-size: 25px;
       padding: 21px 0;
@@ -137,7 +136,7 @@
         cursor: pointer;
     }
     .btn {
-        margin-top: 30px;
+        margin-top: 15px;
         padding: 8px 20px;
         color: #4c5547;
         display: inline-block;
@@ -227,23 +226,18 @@ input, textarea {
         display:block;
         font-size:15px;
     }
-    .fa{
-        margin:5px 0px;
-        font-size:15px;
-        color: whitesmoke;
-    }   
-    
-    /*Animasi*/
-.description h1{
-  color:#ffffff;
-  position:relative;
-  animation-name:animasi;
-  animation-duration:2s;
-  animation-iteration-count:infinite;
-}
 
-@keyframes animasi{
-  0% {left:0px;top:0px;}
-  50% {color:#fff3ee;left:0px;top:20px}
-  100% {left:0px;top:0px;}
-}
+  /*animation*/
+  .description h1{
+    color:#ffffff;
+    position:relative;
+    animation-name:animasi;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+  }
+  
+  @keyframes animasi{
+    0% {left:0px;top:0px;}
+    50% {color:#fff3ee;left:0px;top:20px}
+    100% {left:0px;top:0px;}
+  }
